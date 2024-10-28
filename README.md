@@ -12,8 +12,10 @@
 ### processing.ipynb
 - 재무제표 PDF를 각 페이지 당 jpg로 변환
 
-### shinhan.ipynb
+### easyOCR.ipynb
 - 기업의 각 jpg 파일을 easyOCR을 통해 전체 text로 변환
+
+### KR_Fin_BERT
 - 전체 text를 정규표현식 작성을 통해 예측에 의미 있는 표현만 json 파일로 저장
 
 ## 🤖 모델링 과정
