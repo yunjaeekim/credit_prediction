@@ -14,11 +14,13 @@
 
 ### easyOCR.ipynb
 - 기업의 각 jpg 파일을 easyOCR을 통해 전체 text로 변환
-
-### KR_Fin_BERT
-- 전체 text를 정규표현식 작성을 통해 예측에 의미 있는 표현만 json 파일로 저장
+- 정규 표현식을 통해 예측에 의미 있는 표현만 json 파일로 변환
 
 ## 🤖 모델링 과정
+
+### KR_Fin_BERT.ipynb
+
+- Train과 Test의 분포 데이터 시각화
 - Hugging Face에서 KR-Fin Bert 모델을 가져옴
 - KR-Fin BERT의 금융 특화된 encoder를 통해 인코딩
 - Fin BERT 논문에서 얘기한 것 처럼 BERT 모델은 동결 시키고 [CLS] 토큰을 가져와 Dense layer를 통해 확률 반환
